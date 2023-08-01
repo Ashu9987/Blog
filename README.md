@@ -7,8 +7,8 @@
 ```
 git clone https://github.com/Ashu9987/Blog.git blog
 composer install
-copy .env.example to .env
 ```
+.env ファイルの名前を変更する
 
 \*次に、必要なデータベースを作成します。
 
@@ -20,6 +20,7 @@ create database blog
 \*Run the initial migrations and seeders.
 
 ```
+php artisan key:generate
 php artisan migrate --seed
 ```
 
