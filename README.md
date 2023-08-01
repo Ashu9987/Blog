@@ -7,7 +7,7 @@
 ```
 git clone https://github.com/Ashu9987/Blog.git blog
 composer install
-copyp .env.example to .env
+copy .env.example to .env
 ```
 
 \*次に、必要なデータベースを作成します。
